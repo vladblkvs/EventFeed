@@ -1,0 +1,11 @@
+.page-wrapper {
+  position: relative;
+  width: 768px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: $bg-color-primary;
+
+  @media (min-width: 768px) {
+    box-shadow: 0 0 8px rgba($color: $bg-color-primary, $alpha: 0.5);
+  }
+}
