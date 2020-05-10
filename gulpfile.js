@@ -68,7 +68,7 @@ gulp.task("webp", function() {
 gulp.task("copy", function() {
   return gulp.src([
       // "source/manifest/site.webmanifest",
-      // "source/fonts/**/*.{woff,woff2}",
+      "source/fonts/**/*.{woff,woff2}",
       "source/img/**",
       "!source/img/sprite/**"
     ], {
@@ -101,5 +101,5 @@ gulp.task("refresh", function(done) {
   done();
 });
 
-gulp.task("build", gulp.series(/*"clean",*/"copy", /*"sprite", */"html"/*, "css", "js"*/));
+gulp.task("build", gulp.series("clean", "copy", /*"sprite", */"html", "css"/*, "js"*/));
 gulp.task("start", gulp.series("build", "server"));

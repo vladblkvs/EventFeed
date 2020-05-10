@@ -1,0 +1,64 @@
+@font-face {
+  font-family: $font-title;
+  src: $font-src-title;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-txt;
+  src: $font-src-txt;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-addition;
+  src: $font-src-addition;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-accent;
+  src: $font-src-accent;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  font-family: $font-txt;
+  font-size: $font-size-txt;
+  line-height: $line-height-txt;
+  font-weight: normal;
+  font-style: normal;
+  color: $text-color-main;
+  background-color: $bg-color-body;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}

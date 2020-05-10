@@ -1,0 +1,41 @@
+$bg-color-primary: #000000;
+$bg-color-secondary: #151515;
+$bg-color-body: #383738;
+$accent-color: #ff781c;
+$accent-active-color: #a04000;
+$accent-gradient: linear-gradient(196.3deg, #ff971c 0%, #ff6600 100%);
+$notification-color: #2459e2;
+$text-color-main: #ffffff;
+$text-color-addition: #d5d5d5;
+$divider-color: #2a2a2a;
+$map-color-water: #1d1d1d;
+$map-color-landscape: #333333;
+$map-color-line: #484848;
+$map-color-country: #737373;
+$map-color-city: #999999;
+$regular-icon-color: #505050;
+$font-title: "SF Compact Display Heavy";
+$font-txt: "SF Compact Display Regular";
+$font-addition: "SF Compact Display Semibold";
+$font-accent: "Uni Neue Heavy";
+$font-src-title: url("../fonts/SF-Compact-Display-Heavy.woff2") format("woff2"),
+  url("../fonts/SF-Compact-Display-Heavy.woff") format("woff");
+$font-src-txt: url("../fonts/SF-Compact-Display-Regular.woff2") format("woff2"),
+  url("../fonts/SF-Compact-Display-Regular.woff") format("woff");
+$font-src-addition: url("../fonts/SF-Compact-Display-Semibold.woff2") format("woff2"),
+  url("../fonts/SF-Compact-Display-Semibold.woff") format("woff");
+$font-src-accent: url("../fonts/Uni-Neue-Heavy.woff2") format("woff2"),
+  url("../fonts/Uni-Neue-Heavy.woff") format("woff");
+$font-size-title-extra-large: 4rem;
+$font-size-title-large: 2.6rem;
+$font-size-title: 1.8rem;
+$font-size-txt: 1.6rem;
+$font-size-addition: 1.4rem;
+$font-size-accent: 2.2rem;
+$font-size-menu-btn: 1rem;
+$line-height-extra-large: 4.8rem;
+$line-height-large: 3.1rem;
+$line-height-media: 2.1rem;
+$line-height-txt: 1.9rem;
+$line-height-addition: 1.7rem;
+$line-height-menu-btn: 1.2rem;
