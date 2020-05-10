@@ -1,0 +1,19 @@
+.link {
+  font-family: $font-txt;
+  font-size: $font-size-txt;
+  line-height: $line-height-txt;
+  color: $accent-color;
+  text-decoration: none;
+  outline: none;
+}
+
+@media not all and (pointer: coarse) {
+  .link:hover,
+  .link:focus {
+    text-decoration: underline;
+  }
+}
+
+.link:active {
+  color: $accent-active-color;
+}
