@@ -1,0 +1,76 @@
+.nav {
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  width: inherit;
+  max-width: inherit;
+  background-color: $bg-color-primary;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 2px 0 2px;
+  list-style: none;
+}
+
+.nav__btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  font-family: $font-addition;
+  font-size: $font-size-menu-btn;
+  line-height: $line-height-menu-btn;
+  color: $regular-icon-color;
+  text-decoration: none;
+  outline: none;
+
+  .nav__item--active & {
+    color: $accent-color;
+  }
+}
+
+@media not all and (pointer: coarse) {
+  .nav__item:not(.nav__item--active) .nav__btn:hover,
+  .nav__item:not(.nav__item--active) .nav__btn:focus {
+    background-color: rgba($color: $text-color-main, $alpha: 0.05);
+    color: $text-color-main;
+
+    & .nav__icon-top {
+      fill: $text-color-main;
+    }
+  }
+}
+
+.nav__btn:active {
+  transform: scale(0.9);
+}
+
+.nav__icon-bottom {
+  .nav__item--active & {
+    fill: url("#bottom1");
+  }
+}
+
+.nav__icon-top {
+  .nav__item--active & {
+    fill: url("#top1");
+  }
+}
+
+.nav__notification {
+  top: 4px;
+  left: 26px;
+
+  .page-wrapper--map & {
+    top: 8px;
+    left: 32px;
+  }
+}
