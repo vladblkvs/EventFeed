@@ -148,3 +148,24 @@ data.localEvents = [
     date: `10 October`
   }
 ];
+
+data.mapMarkers = [
+  {
+    city: `Amsterdam`,
+    country: `Netherlands`,
+    lat: 52.377956,
+    lng: 4.897070
+  },
+  {
+    city: `Paris`,
+    country: `France`,
+    lat: 48.8580184,
+    lng: 2.2938478
+  },
+  {
+    city: `Munster`,
+    country: `France`,
+    lat: 48.0410847,
+    lng: 7.1366317
+  }
+];
