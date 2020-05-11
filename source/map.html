@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="preload" href="fonts/SF-Compact-Display-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/SF-Compact-Display-Semibold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/Uni-Neue-Heavy.woff2" type="font/woff2" as="font" crossorigin="anonymous">
-    <title>Event Map</title>
+    <title>Event map</title>
   </head>
+
   <body>
     <div class="visually-hidden" aria-hidden="true">
       <include src="build/img/sprite.svg"></include>
@@ -66,146 +68,66 @@
           </button>
         </div>
       </section>
-      <section class="feed feed--show">
+      <section class="feed">
         <div class="feed__title-bar">
           <button class="feed__toggle-btn" type="button">
             <span class="visually-hidden">Close feed</span>
           </button>
-          <h2 class="feed__title">Events</h2>
-          <p class="feed__subtitle">232 Upcoming Events</p>
+          <h2 class="feed__title">Feed</h2>
+          <p class="feed__subtitle"></p>
         </div>
-        <ul class="feed__list">
-          <li class="feed__item feed__item--event feed__item--new feed__item--rounded">
-            <span class="feed__bookmark">
-              <svg class="feed__bookmark-icon-big" width="15" height="17">
-              <title>Bookmark this item</title>
-                <use xlink:href="#icon-bookmark"></use>
-              </svg>
-            </span>
-            <div class="feed__slide">
-              <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
-              <a class="feed__link" href="#">
-                <img class="feed__image" src="img/feed-event-king_or_queen.png" alt="">
-                <div class="feed__item-inner">
-                  <h3 class="feed__item-title">King or queen of the circle 2018</h3>
-                  <div class="feed__addition">
-                    <p class="feed__location">Houston, United States</p>
-                    <p class="feed__date">13 October</p>
-                  </div>
-                </div>
-              </a>
-              <span class="feed__info-icon-holder">
-                <button class="feed__bookmark-btn" type="button">
-                  <svg class="feed__bookmark-icon" width="9" height="10">
-                    <title>Bookmarked</title>
-                    <use xlink:href="#icon-bookmark"></use>
-                  </svg>
-                </button>
-                <span class="feed__notification-icon">
-                  <span class="visually-hidden">New event</span>
-                </span>
-              </span>
-            </div>
-          </li>
-          <li class="feed__item feed__item--event feed__item--bookmarked feed__item--new">
-            <span class="feed__bookmark">
-              <svg class="feed__bookmark-icon-big" width="15" height="17">
-                <title>Bookmark this item</title>
-                <use xlink:href="#icon-bookmark"></use>
-              </svg>
-            </span>
-            <div class="feed__slide">
-              <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
-              <a class="feed__link" href="#">
-                <img class="feed__image" src="img/feed-event-temple-rock.png" alt="">
-                <div class="feed__item-inner">
-                  <h3 class="feed__item-title">Temple rock: 5 year anniversary 2018</h3>
-                  <div class="feed__addition">
-                    <p class="feed__location">Buenos Aires, Argentina</p>
-                    <p class="feed__date">13 October</p>
-                  </div>
-                </div>
-              </a>
-              <span class="feed__info-icon-holder">
-                <button class="feed__bookmark-btn" type="button">
-                  <svg class="feed__bookmark-icon" width="9" height="10">
-                    <title>Bookmarked</title>
-                    <use xlink:href="#icon-bookmark"></use>
-                  </svg>
-                </button>
-                <span class="feed__notification-icon">
-                  <span class="visually-hidden">New event</span>
-                </span>
-              </span>
-            </div>
-          </li>
-          <li class="feed__item feed__item--event feed__item--new">
-            <span class="feed__bookmark">
-              <svg class="feed__bookmark-icon-big" width="15" height="17">
-                <title>Bookmark this item</title>
-                <use xlink:href="#icon-bookmark"></use>
-              </svg>
-            </span>
-            <div class="feed__slide">
-              <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
-              <a class="feed__link" href="#">
-                <img class="feed__image" src="img/feed-event-soul-rockerz.png" alt="">
-                <div class="feed__item-inner">
-                  <h3 class="feed__item-title">Soul Rockerz 20</h3>
-                  <div class="feed__addition">
-                    <p class="feed__location">Buenos Aires, Argentina</p>
-                    <p class="feed__date">13 October</p>
-                  </div>
-                </div>
-              </a>
-              <span class="feed__info-icon-holder">
-                <button class="feed__bookmark-btn" type="button">
-                  <svg class="feed__bookmark-icon" width="9" height="10">
-                    <title>Bookmarked</title>
-                    <use xlink:href="#icon-bookmark"></use>
-                  </svg>
-                </button>
-                <span class="feed__notification-icon">
-                  <span class="visually-hidden">New event</span>
-                </span>
-              </span>
-            </div>
-          </li>
-          <li class="feed__item feed__item--event feed__item--new">
-            <span class="feed__bookmark">
-              <svg class="feed__bookmark-icon-big" width="15" height="17">
-                <title>Bookmark this item</title>
-                <use xlink:href="#icon-bookmark"></use>
-              </svg>
-            </span>
-            <div class="feed__slide">
-              <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
-              <a class="feed__link" href="#">
-                <img class="feed__image" src="img/feed-event-hip-hop-showcase.png" alt="">
-                <div class="feed__item-inner">
-                  <h3 class="feed__item-title">Rockland's 10 year hip‑hop showcase</h3>
-                  <div class="feed__addition">
-                    <p class="feed__location">Buenos Aires, Argentina</p>
-                    <p class="feed__date">13 October</p>
-                  </div>
-                </div>
-              </a>
-              <span class="feed__info-icon-holder">
-                <button class="feed__bookmark-btn" type="button">
-                  <svg class="feed__bookmark-icon" width="9" height="10">
-                    <title>Bookmarked</title>
-                    <use xlink:href="#icon-bookmark"></use>
-                  </svg>
-                </button>
-                <span class="feed__notification-icon">
-                  <span class="visually-hidden">New event</span>
-                </span>
-              </span>
-            </div>
-          </li>
-        </ul>
+        <ul class="feed__list"></ul>
       </section>
     </div>
 
+    <template id="feed-post-template">
+      <li class="feed__item">
+        <span class="feed__bookmark">
+          <svg class="feed__bookmark-icon-big" width="15" height="17">
+            <title>Bookmark this item</title>
+            <use xlink:href="#icon-bookmark"></use>
+          </svg>
+        </span>
+        <div class="feed__slide">
+          <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
+          <a class="feed__link" href="">
+            <img class="feed__image" src="" alt="">
+            <div class="feed__item-inner">
+              <h3 class="feed__item-title"></h3>
+              <div class="feed__addition"></div>
+            </div>
+          </a>
+          <span class="feed__info-icon-holder">
+            <button class="feed__bookmark-btn" type="button">
+              <svg class="feed__bookmark-icon" width="9" height="10">
+                <title>Bookmarked</title>
+                <use xlink:href="#icon-bookmark"></use>
+              </svg>
+            </button>
+            <span class="feed__notification-icon">
+              <span class="visually-hidden">New event</span>
+            </span>
+          </span>
+        </div>
+      </li>
+    </template>
+    <template id="feed-artist-template">
+      <p class="feed__artist"></p>
+    </template>
+    <template id="feed-vid-duration-template">
+      <p class="feed__video-duration"><span class="visually-hidden">Duration of the video: </span></p>
+    </template>
+    <template id="feed-location-template">
+      <p class="feed__location"></p>
+    </template>
+    <template id="feed-date-template">
+      <p class="feed__date"></p>
+    </template>
+    <template id="map-marker-a11y-template">
+      <button class="map__marker visually-hidden" type="button"></button>
+    </template>
+
+    <script type="module" src="js/script.min.js"></script>
   </body>
+
 </html>

@@ -1,0 +1,16 @@
+.notification {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 15px;
+  height: 15px;
+  padding: 0 3px;
+  font-family: $font-txt;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: $text-color-main;
+  background-color: #2459e2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
