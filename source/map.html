@@ -37,6 +37,31 @@
           </li>
         </ul>
       </nav>
+      <section class="map">
+        <h2 class="visually-hidden">Map</h2>
+        <div class="map__inner">
+          <picture class="map__picture">
+            <source type="image/webp" srcset="img/map.webp">
+            <img class="map__placeholder" src="img/map.png" width="642" height="739" alt="World map">
+          </picture>
+          <div class="map__google"></div>
+        </div>
+        <div class="map__feed-buttons">
+          <button class="map__control map__control--feed" type="button">
+            <span class="visually-hidden">Open event-feed of the map</span>
+            <svg class="map__control-icon" width="16" height="15" aria-hidden="true">
+              <use xlink:href="#icon-feed-list"></use>
+            </svg>
+            <span class="map__notification notification"></span>
+          </button>
+          <button class="map__control map__control--marker-setter" type="button">
+            <span class="visually-hidden">Set location</span>
+            <svg class="map__control-icon" width="13" height="18" aria-hidden="true">
+              <use xlink:href="#icon-map-mark"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
     </div>
 
   </body>
