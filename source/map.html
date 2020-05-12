@@ -9,6 +9,15 @@
     <link rel="preload" href="fonts/SF-Compact-Display-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/SF-Compact-Display-Semibold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/Uni-Neue-Heavy.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="manifest" href="manifest/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <meta name="msapplication-TileImage" content="/ms-icon-150x150.png">
     <title>Event map</title>
   </head>
 
@@ -81,35 +90,35 @@
     </div>
 
     <template id="feed-post-template">
-      <li class="feed__item">
-        <span class="feed__bookmark">
-          <svg class="feed__bookmark-icon-big" width="15" height="17">
-            <title>Bookmark this item</title>
-            <use xlink:href="#icon-bookmark"></use>
-          </svg>
-        </span>
-        <div class="feed__slide">
-          <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
-          <a class="feed__link" href="">
-            <img class="feed__image" src="" alt="">
-            <div class="feed__item-inner">
-              <h3 class="feed__item-title"></h3>
-              <div class="feed__addition"></div>
-            </div>
-          </a>
-          <span class="feed__info-icon-holder">
-            <button class="feed__bookmark-btn" type="button">
-              <svg class="feed__bookmark-icon" width="9" height="10">
-                <title>Bookmarked</title>
+          <li class="feed__item">
+            <span class="feed__bookmark">
+              <svg class="feed__bookmark-icon-big" width="15" height="17">
+                <title>Bookmark this item</title>
                 <use xlink:href="#icon-bookmark"></use>
               </svg>
-            </button>
-            <span class="feed__notification-icon">
-              <span class="visually-hidden">New event</span>
             </span>
-          </span>
-        </div>
-      </li>
+            <div class="feed__slide">
+              <p class="feed__recommendation"><a class="link" href=""></a> recommends an event</p>
+              <a class="feed__link" href="">
+                <img class="feed__image" src="" alt="">
+                <div class="feed__item-inner">
+                  <h3 class="feed__item-title"></h3>
+                  <div class="feed__addition"></div>
+                </div>
+              </a>
+              <span class="feed__info-icon-holder">
+                <button class="feed__bookmark-btn" type="button">
+                  <svg class="feed__bookmark-icon" width="9" height="10">
+                    <title>Bookmarked</title>
+                    <use xlink:href="#icon-bookmark"></use>
+                  </svg>
+                </button>
+                <span class="feed__notification-icon">
+                  <span class="visually-hidden">New event</span>
+                </span>
+              </span>
+            </div>
+          </li>
     </template>
     <template id="feed-artist-template">
       <p class="feed__artist"></p>
